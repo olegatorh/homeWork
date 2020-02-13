@@ -1,0 +1,19 @@
+#Convert a Number to a String! (Python)
+
+def number_to_string(num):
+    Str = str(num)
+    return(Str)
+
+#Reversing Words in a String (Python)
+
+def reverse(st):
+    s = ((st.split()[::-1]))
+    s = ' '.join(s)
+    return(s)
+
+#Jenny's secret message (Python)
+
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
